@@ -1,0 +1,6 @@
+database create .env wli file me jo hu
+composer install
+php artisan migrate
+php artisan key:generate
+php artisan storage:link
+php aristan serve
